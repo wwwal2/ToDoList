@@ -1,0 +1,35 @@
+body {
+	background-color: white;
+}
+
+#inputString {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	color: lightgray;
+}
+ 
+#form1{
+	text-align: center;
+}
+
+#wholeList{
+	margin-left: 43%;
+	margin-top: 50px;
+	
+}
+ul li:hover {
+    background: lightgray;
+}
+.addListClass{
+	margin-left: 20px;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+    text-decoration: line-through;
+}
+
+
